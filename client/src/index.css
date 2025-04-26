@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 120vh;
+}
+
+.card-body {
+  background-color: lavender;
+}
+
+.navbar {
+  background-color: aqua;
+}
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+/* //transection page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+  background-color: #f0f0f0;
+}
+
+/*  antd icons */
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+.active-icons {
+  color: black;
+}
+
+.inactive-icons {
+  color: gray;
+}
+
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+/*  antd icons */
+
+/* ------------------------ */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+  padding: 20px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 950px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 18px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.login-header h2 {
+  margin: 0;
+  font-size: 26px;
+  color: #2c3e50;
+}
+
+.login-content {
+  display: flex;
+  flex: 1;
+}
+
+.login-left {
+  flex: 3;
+  background-color: #e9f5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.login-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-right {
+  flex: 2;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  background-color: #b3c2d0cf;
+}
+
+.login-right h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form-footer a {
+  color: #5f5d5d;
+  text-decoration: none;
+}
+
+.form-footer button {
+  background-color: #042745cf;
+  width: 108px;
+  border-color: #042745cf;
+  border-radius: 10px;
+}
+
+.login-container .login-box .login-content .login-right h2 {
+  color: #042745cf;
+  margin-left: 88px;
+  margin-bottom: 62px;
+  font-weight: bolder;
+}
+/* ------------------------ */
